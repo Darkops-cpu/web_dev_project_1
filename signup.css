@@ -1,0 +1,61 @@
+body {
+    background-image: url(simple\ full-sized\ background\ for\ a\ website\ login\ and\ sign\ up\ page\ \(2\).png); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0; 
+}
+
+#maincont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+#div {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+#email,
+#password{
+    width: 250px; 
+    margin: 10px 0; 
+    padding: 10px; 
+    font-size: 15px;
+    text-align: center; 
+}
+
+#signup {
+    cursor: pointer;    
+    background-color: rgb(7, 0, 56);
+    color: whitesmoke;
+    transition: background-color 0.25s, color 0.25s;
+    width: 275px;    
+    margin: 10px 0; 
+    padding: 10px; 
+    font-size: 15px;
+    text-align: center; 
+    border: none;
+}
+
+#signup:hover {
+    background-color: rgb(149, 149, 149);
+    color: rgba(7, 0, 56);
+}
+
+#signuphere{
+    text-decoration: none;
+    color: blueviolet;
+    transition: color 0.15s;
+}
+#signuphere:hover{
+    color: rgb(1, 255, 44);
+}
