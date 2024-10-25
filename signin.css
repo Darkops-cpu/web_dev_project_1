@@ -33,8 +33,8 @@ body {
     text-align: center; 
 }
 
-#signup {
-    cursor: pointer;    
+#signin {
+    cursor: cell;    
     background-color: rgb(7, 0, 56);
     color: whitesmoke;
     transition: background-color 0.25s, color 0.25s;

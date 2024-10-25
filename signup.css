@@ -1,0 +1,57 @@
+body{
+    background-image: url(simple\ full-sized\ background\ for\ a\ website\ login\ and\ sign\ up\ page.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+#maincont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+
+#name,
+#email,
+#password{
+    width: 250px;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+#signup{
+    background-color: rgb(63, 65, 140);
+    color: rgb(249, 237, 237);
+    width: 275px;    
+    margin: 10px 0; 
+    padding: 10px;
+    font-size: 15px;
+    text-align: center; 
+    border: none;
+    cursor: cell;
+    transition: background-color 0.25s, color 0.25s;
+}
+#signup:hover{
+    color: rgb(63, 65, 140);
+    background-color: rgb(249, 237, 237);
+}
+
+#redirect{
+    text-decoration: none;
+}
+#redirect:hover{
+    color: rgb(153, 204, 153);
+}
