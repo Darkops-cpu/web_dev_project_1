@@ -45,6 +45,10 @@ body {
     text-align: center; 
     border: none;
 }
+#signin:hover{
+    background-color: whitesmoke;
+    color: rgb( 7, 0, 56);
+}
 
 #signup:hover {
     background-color: rgb(149, 149, 149);
