@@ -1,0 +1,35 @@
+body{
+    background-image: url(website\ bg.png);
+    background-position: center;
+    background-repeat: no repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#heading{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    font-size: 80px;
+}
+#rubik-wet-paint-regular {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb( 249, 237, 237);
+}
+#rules{
+    display: flex;
+    justify-content: center;
+    
+}
+#list{
+    font-size: 40px;
+}
+
+
