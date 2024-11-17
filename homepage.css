@@ -1,0 +1,72 @@
+/* Reset basic styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Header styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+/* Shrink button styling */
+.shrink-button button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.shrink-button button:hover {
+    background-color: #0056b3;
+}
+
+/* Right buttons container */
+.right-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between the login button and profile image */
+}
+
+/* Login button styling */
+.login-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    background-color: #1e7e34;
+}
+
+/* Profile image styling */
+.profile-image img {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes it circular */
+    border: 2px solid #ddd; /* Optional border for better visibility */
+    cursor: pointer;
+}
+
+.profile-image img:hover {
+    border-color: #007BFF; /* Highlight on hover */
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    text-align: center;
+}
