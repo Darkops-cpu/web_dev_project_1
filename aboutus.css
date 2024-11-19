@@ -3,18 +3,20 @@ body{
     background-repeat: none;
     background-size: cover;
     background-position: center;
+    overflow-x: hidden;
     height: 100vh;
+    margin-left: 50px;
 }
 #headingmain{
     display: flex;
     justify-content: center;
-    background-color: rgb(0, 0, 0, 0);
+    
 }
 #heading{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 1);
     font-family: sans-serif;
     width: 50%;
     font-size: x-large;
@@ -22,12 +24,13 @@ body{
     text-decoration: underline;
     border-radius: 25px;
     margin-top: 15px;
+    box-shadow: 10px 10px 10px black;
 }
 #des{
     display: flex;
     justify-content: center;
     margin-top: 50px;
-    margin-left: 73px;
+    margin-left: 23px;
     margin-right: 73px;
 
 }
@@ -35,7 +38,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 1);
     padding-top: 10px;  
     padding-bottom: 10px;
     padding-left: 20px;
@@ -44,14 +47,16 @@ body{
     font-size: 20px;
     font-weight: bold;
     border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    box-shadow: -10px -10px -10px black;
 }
 .front{
     display: flex;
     margin-top: 50px;
-    margin-left: 73px;
+    margin-left: 23px;
 }
 .frontend{
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.5);
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -114,7 +119,31 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;    
+}
+
+#frontend{
+    display: flex;
+    text-align: left;
+    margin-left: 23px;
     width: 100vw;
-    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: underline;
+}
+#frontend1{
+    background-color: rgba(255, 255, 255, 1);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 25px;
     
 }
