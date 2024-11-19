@@ -1,7 +1,7 @@
 body{
-    background-image: url(website\ bg.png);
+    background-image: url(rulesbg.jpg);
     background-position: center;
-    background-repeat: no repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
@@ -16,17 +16,27 @@ body{
     justify-content: center;
     font-size: 80px;
 }
-#rubik-wet-paint-regular,
+#brawler-bold{
+    font-family: "Brawler", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-bottom: 0px;
+    text-decoration: underline;
+}
 #para {
     font-family: "Rubik Wet Paint", system-ui;
     font-weight: 400;
     font-style: normal;
-    color: rgb( 249, 237, 237);
+    color: rgb(0, 0, 0);
 }
 #rules{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: italic;
+    
     
 }
 #list{
