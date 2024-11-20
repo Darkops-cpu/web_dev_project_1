@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Profile Form</title>
+  <link rel="stylesheet" href="profile.css">
+</head>
+
+  
+<body>
+ <div class="container">
+    <h1>Student Profile Form</h1>
+    <form id="profileForm" class="profile-form">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="branch">Branch:</label>
+        <input type="text" id="branch" name="branch" required>
+      </div>
+
+      <div class="form-group">
+        <label for="rollNo">Roll No:</label>
+        <input type="text" id="rollNo" name="rollNo" required>
+      </div>
+
+      <div class="form-group">
+        <label for="subjects">Subjects You Are Good At:</label>
+        <textarea id="subjects" name="subjects" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="interests">Interests:</label>
+        <textarea id="interests" name="interests" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="profilePhoto">Profile Photo:</label>
+        <input type="file" id="profilePhoto" name="profilePhoto" accept="image/*" required>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="profileDisplay" class="profile-display">
+      <!-- The profile will be displayed here after submission -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
