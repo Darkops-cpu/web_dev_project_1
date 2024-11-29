@@ -1,0 +1,33 @@
+{
+  "name": "discussion-forum",
+  "version": "1.0.0",
+  "description": "People are filled up with doubts and always search for answers throughout their life. This project creates a system where people can put their feelings or questions into a structured manner. The poster should receive answers or opinions from other members of the forum which may help the person in clearing his doubts.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "npm start --prefix frontend",
+    "server": "nodemon backend/server",
+    "start": "nodemon --watch backend --exec node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potlamohansai/discussion-forum.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/potlamohansai/discussion-forum/issues"
+  },
+  "homepage": "https://github.com/potlamohansai/discussion-forum#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4",
+    "nodemon": "^2.0.15",
+    "swagger-ui-express": "^4.3.0",
+    "yamljs": "^0.3.0"
+  }
+}

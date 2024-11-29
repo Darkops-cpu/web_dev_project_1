@@ -1,0 +1,64 @@
+swagger: "2.0"
+info:
+  description: "People are filled up with doubts and always search for answers throughout their life. This project creates a system where people can put their feelings or questions into a structured manner. The poster should receive answers or opinions from other members of the forum which may help the person in clearing his doubts."
+  version: "1.0.0"
+  title: "Discussion Forum"
+  contact:
+    email: "potlamohansai@gmail.com"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+host: "localhost:80"
+basePath: "/"
+tags: ""
+
+paths:
+  /api:
+    get:
+      summary: "This api is reserved for discussion forum"
+      description: "This is a client only api"
+      responses:
+        200:
+          description: "A Successful Response"
+        500:
+          description: "Unable to get the question details"
+
+  /api/questions:
+    get:
+      summary: "To get all the questions"
+      description: "This api is used to get all the Questions in the database."
+      responses:
+        200:
+          description: "A Successful Response"
+          content:
+            application/json:
+              schema:
+                type: object
+              example: "{}"
+
+        400:
+          description: "Unable to get the question details"
+        500:
+          description: "Unexpected Error"
+    post:
+      summary: "To post the questions"
+      description: "This api is used to post the questions into the database."
+      responses:
+        201:
+          description: "Question added successfully"
+        400:
+          description: "Bad format"
+        500:
+          description: "Error while adding question"
+  
+  /api/answers:
+    post:
+      summary: "To post the answers"
+      description: "This api is used to post the answers into the database."
+      responses:
+        201:
+          description: "Answer added successfully"
+        400:
+          description: "Bad Request"
+        500:
+          description: "Error while adding answer"
